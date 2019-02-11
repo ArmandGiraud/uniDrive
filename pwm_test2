@@ -12,14 +12,14 @@ var piblaster = require("pi-blaster.js");
 
 //enter your own constants here
 
-//piblaster.setPwm(17,0.105); //throttle rev
+piblaster.setPwm(18, 0.205); //throttle rev
 //piblaster.setPwm(17,0.14); //throttle n
 //piblaster.setPwm(17,0.175); //throttle fwds
 
 
-piblaster.setPwm(18,.105); // steer l
-//piblaster.setPwm(18,.14); // steer mid
-//piblaster.setPwm(18,.175); // steer r
+//piblaster.setPwm(4,0.075); // steer l
+//piblaster.setPwm(4,.05); // steer mid
+//piblaster.setPwm(4,.065); // steer r
 
 
 
